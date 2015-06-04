@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[slyfy27 Blog]]></title>
+  <link href="http://slyfy27.github.io/atom.xml" rel="self"/>
+  <link href="http://slyfy27.github.io/"/>
+  <updated>2015-06-04T14:09:18+08:00</updated>
+  <id>http://slyfy27.github.io/</id>
+  <author>
+    <name><![CDATA[slyfy27]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[异常调试]]></title>
+    <link href="http://slyfy27.github.io/blog/2015/06/04/yi-chang-diao-shi/"/>
+    <updated>2015-06-04T14:02:34+08:00</updated>
+    <id>http://slyfy27.github.io/blog/2015/06/04/yi-chang-diao-shi</id>
+    <content type="html"><![CDATA[<h5>测试提交</h5>
+
+<ul>
+<li>ok了么</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
