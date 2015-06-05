@@ -6,6 +6,47 @@ comments: true
 categories: 
 ---
 
-#####测试提交
+___
 
-*	ok了么
+作为一只勤劳的IOS程序员,写完一个功能之后前后检查了无数遍，呕心沥血有木有,高高兴兴的Run it,尼玛程序崩溃在了
+<img src="/images/exceptionDebug/exception.png">
+
+坑爹啊<img src="/images/exceptionDebug/kuqi.png">,这怎么检查,一点堆栈信息都木有，如何排错!!!!
+
+莫慌~下面有实用好方法<img src="/images/exceptionDebug/guai.jpg">
+
+*	方法一:首先在AppDelegate中定义一个方法，用于异常处理,然后在应用启动时候设置该方法作为自己的自定义异常回调:
+
+	---
+	<img src="/images/exceptionDebug/exceptionStack.png">
+
+*	方法二:可以在XCode中设置异常断点
+
+	---
+	<img src="/images/exceptionDebug/exceptionBreakPoint.png">
+	
+	现在再运行,是不是狂拽酷炫吊炸天<img src="/images/exceptionDebug/cool.jpg">
+	
+####UM错误统计中的异常定位
+
+作为天朝的程序猿,UM的统计功能还是很实用的,今早起床来公司打开电脑一看
+
+---
+<img src="/images/exceptionDebug/umException.png">
+
+惊悚啊<img src="/images/exceptionDebug/zuonie.jpg">,CTO还在边上催促着赶紧修改bug,我也要会改啊<img src="/images/exceptionDebug/weiqu.jpg">
+
+
+`前方高能，教你如何轻松定位错误代码`
+
+首先看下版本号,找到当时的归档文件,然后右键show in Finder，如下图
+
+---
+<img src="/images/exceptionDebug/archive.png">
+
+显示包内容,打开dSYMs文件,你将看到yourAppName.app.dSYM,重点来了哦,右键,在terminal中打开,然后运行
+
+		xcrun atos -arch armv7 -o YourAppName 0xff939
+请看terminal的输出结果,高大上了有没有~瞬间档次上来了~
+
+<img src="/images/exceptionDebug/chunjiedeweixiao.jpg">
