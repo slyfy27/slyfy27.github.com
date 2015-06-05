@@ -4,7 +4,7 @@
   <title><![CDATA[slyfy27 Blog]]></title>
   <link href="http://slyfy27.github.io/atom.xml" rel="self"/>
   <link href="http://slyfy27.github.io/"/>
-  <updated>2015-06-05T16:24:33+08:00</updated>
+  <updated>2015-06-05T17:14:36+08:00</updated>
   <id>http://slyfy27.github.io/</id>
   <author>
     <name><![CDATA[slyfy27]]></name>
@@ -18,12 +18,9 @@
     <link href="http://slyfy27.github.io/blog/2015/06/04/yi-chang-diao-shi/"/>
     <updated>2015-06-04T14:02:34+08:00</updated>
     <id>http://slyfy27.github.io/blog/2015/06/04/yi-chang-diao-shi</id>
-    <content type="html"><![CDATA[<h5>测试提交</h5>
+    <content type="html"><![CDATA[<hr />
 
-<ul>
-<li>ok了么</li>
-</ul>
-
+<p>作为一只勤劳的IOS程序员,写完一个功能之后前后检查了无数遍，呕心沥血有木有,高高兴兴的Run it,尼玛程序崩溃在了</p>
 ]]></content>
   </entry>
   
